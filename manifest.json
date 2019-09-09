@@ -1,1 +1,1 @@
-{"short_name":"SIST-CSE","name":"SIST-CSE","icons":[{"src":"/assets/img/sist_2k.jpg","type":"image/jpeg","sizes":"2000x2000"},{"src":"/assets/img/sist_2k.jpg","type":"image/jpeg","sizes":"2000x2000"}],"start_url":"/index.html","display":"fullscreen","orientation":"portrait"}
+{"short_name":"SIST-CSE","name":"SIST-CSE","icons":[{"src":"/assets/img/Icon-192.png","type":"image/png","sizes":"192x192"},{"src":"/assets/img/Icon-512.png","type":"image/png","sizes":"512x512"}],"start_url":"/index.html","display":"fullscreen","orientation":"portrait"}
