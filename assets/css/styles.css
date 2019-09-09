@@ -1,0 +1,77 @@
+.dropdown-toggle::after {
+  display: none;
+}
+
+i {
+  font-size: 20px;
+}
+
+ca {
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+}
+
+.headings-container {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  /*display: none;*/
+  /*background: rgba(0, 0, 0, .5);*/
+}
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.color-change-2x {
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
+}
+
+@keyframes color-change-2x {
+  0% {
+    background: #2E0854;
+  }
+  100% {
+    background: #4B0082;
+  }
+}
+
+*:focus {
+  outline: none !important;
+}
+
+#overlay {
+}
+
+.hover-border::after {
+  content: '';
+  width: 0%;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  border-radius: 8px;
+  transition: all 500ms ease;
+}
+
+.hover-border {
+  position: relative;
+}
+
+.hover-border:hover::after {
+  left: 0%;
+  width: 100%;
+}
+
